@@ -9,7 +9,7 @@ pwd
 echo "Contents:"
 ls
 
-FILE=.gi/index.lock
+FILE=.git/index.lock
 if [ -f "$FILE" ]; then
     echo "Found $FILE - deleting"
     rm -f $FILE
