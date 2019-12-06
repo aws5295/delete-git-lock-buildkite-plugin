@@ -11,7 +11,7 @@ Example
 steps:
   - command: bin/some-command
     plugins:
-      aws5295/delete-git-lock: ~
+      aws5295/delete-git-lock#commitHash: ~
 ```
 
 Options
